@@ -18,7 +18,7 @@ $(document).ready(function () {
             $.each(data.results, function (index, item) {
                 output += `
                 <div class="col-sm-6 col-lg-3 d-flex">
-                    <div class="card text-center shadow bg-white border border-secondary rounded mb-3" style="width: 30rem;">
+                    <div class="card text-center shadow bg-white border border-primary rounded mb-3" style="width: 30rem;">
                         <div class="card-body">
                             <p class="card-text">${item.name}</p>
                             <a href="${item.url}" class="btn btn-primary">Detail</a>
